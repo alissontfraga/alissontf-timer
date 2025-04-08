@@ -1,0 +1,72 @@
+@charset "UTF-8"
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+body {
+
+    font-family: sans-serif;
+    background-color: #331832;
+    color: white;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.507);
+    
+  }
+  
+  .container {
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background-color: #694D75;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  #time-display {
+    margin: auto;
+    width: 20rem;
+    text-align: center;
+    align-items: center;
+    font-size: 48px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #1B5299;
+    border-radius: 15px;
+    color: #87e5ff;
+  }
+  
+  .controls button,
+  .time-setter button {
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #60d5f5;
+    border-radius: 15px;
+    border: none;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.507);
+  }
+  
+  .time-setter {
+    margin-top: 2rem;
+    background-color: #331832;
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  
+  .time-setter input {
+    background-color: #60d5f5;
+    width: 20%;
+    padding: 8px;
+    font-size: 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cronômetro de Estudos</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+    
+        <h1>Cronômetro de Estudos</h1>
+        
+        <div id="time-display">00:00:00</div>
+        
+        <div class="controls">
+            <button id="start">Iniciar</button>
+            <button id="pause">Pausar</button>
+            <button id="reset">Resetar</button>
+        </div>
+        <div class="time-setter">
+            <input type="number" id="hours" min="0" placeholder="Horas">
+            <input type="number" id="minutes" min="0" max="59" placeholder="Minutos">
+            <input type="number" id="seconds" min="0" max="59" placeholder="Segundos">
+            <button id="set-time">Definir Tempo</button>
+          </div>
+      
+</div>
+
+
+
+<script src="scripts/index.js"></script>
+</body>
+</html>
