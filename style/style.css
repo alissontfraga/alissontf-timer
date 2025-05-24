@@ -109,4 +109,85 @@ body {
   button{
     font-family: Roboto, Arial, Helvetica, sans-serif;
   }
+
+  /* Até 768px (tablets e celulares grandes) */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .first-title h1 {
+    font-size: 2rem;
+  }
+
+  #time-display {
+    width: 100%;
+    font-size: 36px;
+    padding: 1.5rem;
+  }
+
+  .controls button,
+  .time-setter button {
+    padding: 12px;
+    font-size: 16px;
+    margin: 0.5rem 0.3rem;
+  }
+
+  .time-setter input {
+    width: 40%;
+    font-size: 16px;
+  }
+}
+
+/* Até 480px (celulares pequenos) */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .first-title {
+    padding: 1rem;
+  }
+
+  .first-title h1 {
+    font-size: 1.5rem;
+  }
+
+  #time-display {
+    font-size: 32px;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .controls button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .time-setter {
+    padding: 1rem;
+  }
+
+  .time-setter input {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .time-setter button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
   
