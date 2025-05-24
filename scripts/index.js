@@ -80,16 +80,13 @@ function notifyEnd() {
   }
 }
 
-// Solicitar permissão para notificações
 if ('Notification' in window && Notification.permission !== 'granted') {
   Notification.requestPermission();
 }
 
-// Event listeners
 document.getElementById('start').addEventListener('click', startTimer);
 document.getElementById('pause').addEventListener('click', pauseTimer);
 document.getElementById('reset').addEventListener('click', resetTimer);
 document.getElementById('set-time').addEventListener('click', setTime);
 
-// Carrega estado anterior
 loadState();

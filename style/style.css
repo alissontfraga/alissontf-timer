@@ -16,7 +16,7 @@ body {
   
   .container {
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
     width: 50%;
     height: 50%;
@@ -28,7 +28,7 @@ body {
   .first-title{
     background-color: #331832;
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     border-radius: 15px;
   }
 
